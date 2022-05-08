@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root>
+  <OBJECT NAME="SAMPLES">
+    <METHOD NAME="ConsultaCepService" DESCRIPTION="" VERSION="19" THREADSAFE="0">
+      <PARAMS>
+        <GROUPS>
+          <GROUP/>
+        </GROUPS>
+        <PARAM NAME="CEP" SIZE="9" FLAGS="1" PROJECTION="0" HINT="Informe e CEP para consulta no WS 'viacep.com.br&#34;" ORDER="1" FIELDLABEL="Cep" CTAB="0"/>
+      </PARAMS>
+      <FIELDS>
+        <GROUPS>
+          <GROUP/>
+        </GROUPS>
+        <FIELD NAME="CEP" SIZE="9" FLAGS="1" PROJECTION="0" HINT="Informe e CEP para consulta no WS 'viacep.com.br&#34;" ORDER="4" FIELDLABEL="Cep" CTAB="0"/>
+        <FIELD NAME="LOGRADOURO" SIZE="100" FLAGS="3" PROJECTION="0" ORDER="9" FIELDLABEL="Logradouro" CTAB="0"/>
+        <FIELD NAME="COMPLEMENTO" SIZE="100" FLAGS="3" PROJECTION="0" FIELDLABEL="Complemento" CTAB="0"/>
+        <FIELD NAME="BAIRRO" SIZE="100" FLAGS="3" PROJECTION="0" ORDER="3" FIELDLABEL="Bairro" CTAB="0"/>
+        <FIELD NAME="LOCALIDADE" SIZE="100" FLAGS="3" PROJECTION="0" ORDER="8" FIELDLABEL="Localidade" CTAB="0"/>
+        <FIELD NAME="UF" SIZE="2" FLAGS="3" PROJECTION="0" ORDER="11" FIELDLABEL="Uf" CTAB="0"/>
+        <FIELD NAME="IBGE" FORMAT="N" SIZE="8" FLAGS="3" PROJECTION="0" ORDER="7" FIELDLABEL="Ibge" CTAB="0"/>
+        <FIELD NAME="GIA" FORMAT="N" SIZE="8" FLAGS="3" PROJECTION="0" ORDER="6" FIELDLABEL="Gia" CTAB="0"/>
+        <FIELD NAME="DDD" FORMAT="N" SIZE="11" FLAGS="3" PROJECTION="0" ORDER="5" FIELDLABEL="Ddd" CTAB="0"/>
+        <FIELD NAME="SIAFI" FORMAT="N" SIZE="8" FLAGS="3" PROJECTION="0" HINT="Sistema Integrado de Administra&#231;&#227;o Financeira do Governo Federal " ORDER="10" FIELDLABEL="Siafi" CTAB="0"/>
+      </FIELDS>
+      <ACTIONSCRIPT>
+</ACTIONSCRIPT>
+    </METHOD>
+  </OBJECT>
+</root>

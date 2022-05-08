@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root>
+  <OBJECT NAME="SAMPLES">
+    <METHOD NAME="LeituraCSV" DESCRIPTION="" VERSION="11" THREADSAFE="0">
+      <PARAMS>
+        <GROUPS>
+          <GROUP/>
+          <GROUP NAME="Read"/>
+        </GROUPS>
+        <PARAM NAME="UPLOAD_FILE" FORMAT="I" FLAGS="1" PROJECTION="0" ORDER="1" FIELDLABEL="Upload File" CTAB="0"/>
+        <PARAM NAME="LeituraCSVResponse" FORMAT="R" FLAGS="1" STYLE="3" PROJECTION="0" ORDER="3" FIELDLABEL="Read File Return" NESTEDNAME="millenium!pmz.SAMPLES.LeituraCSVResponse" GROUPNAME="Read" CTAB="0"/>
+      </PARAMS>
+      <FIELDS/>
+      <ACTIONSCRIPT>/*
+Estrat&#233;gia: Apartir de um tela do ERP, conseguir fazer  o upload de um arquivo CSV e carregar um registros para subter a um outro m&#233;todo.
+*/
+
+
+</ACTIONSCRIPT>
+    </METHOD>
+  </OBJECT>
+</root>

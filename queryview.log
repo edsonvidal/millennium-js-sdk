@@ -1,0 +1,9 @@
+select chamados_crm.chamado.protocolo
+
+ where ((chamados_crm.chamado.chamado = prompt()) AND (chamados_crm.chamado.protocolo = '0000040708'))select:MAIN F_2657392035.protocolo as CHAMADOS_CRM_CHAMADO_PROTOCOLO
+ from chamados F_2657392035
+ inner join chamados_crm F_1759359992  on 
+F_2657392035.chamado=F_1759359992.chamado
+ where 
+(F_2657392035.protocolo = '0000040708');
+

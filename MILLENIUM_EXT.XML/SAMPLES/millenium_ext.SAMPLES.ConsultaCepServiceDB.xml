@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<root>
+  <OBJECT NAME="SAMPLES">
+    <METHOD NAME="ConsultaCepServiceDB" DESCRIPTION="" VERSION="3" THREADSAFE="0">
+      <PARAMS>
+        <GROUPS>
+          <GROUP/>
+        </GROUPS>
+        <PARAM NAME="CEP" SIZE="9" FLAGS="1" DEFAULT="07813040" PROJECTION="0" HINT="Informe e CEP para consulta no WS 'viacep.com.br&#34;" FIELDLABEL="Cep" CTAB="0"/>
+      </PARAMS>
+      <FIELDS/>
+      <ACTIONSCRIPT>
+
+
+</ACTIONSCRIPT>
+    </METHOD>
+  </OBJECT>
+</root>
